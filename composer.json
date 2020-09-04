@@ -1,6 +1,6 @@
 {
     "name": "kkcloud/kkcloud",
-    "description": "kuaikuai open api",
+    "description": "快快云 OSS SDK-PHP",
     "type": "library",
     "license": "MIT",
     "authors": [
