@@ -26,7 +26,7 @@ class GetObjectInfoRequest extends AbstractRequest
             throw new SDKException('param : key is invalid');
         }
         if (empty($this->params['id'])) {
-            throw new SDKException('param : bucket_id is invalid');
+            throw new SDKException('param : id is invalid');
         }
     }
 }

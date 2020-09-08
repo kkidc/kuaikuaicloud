@@ -23,7 +23,7 @@ class SetBucketWebsiteRequest extends AbstractRequest
     protected function checkTrafficParams()
     {
         if (empty($this->params['id'])) {
-            throw new SDKException('param : bucket_id is invalid');
+            throw new SDKException('param : id is invalid');
         }
     }
 }
