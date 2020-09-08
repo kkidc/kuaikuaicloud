@@ -23,6 +23,9 @@ class MultiDeleteObjectRequest extends AbstractRequest
     protected function checkTrafficParams()
     {
         if (empty($this->params['key'])) {
+            throw new SDKException('param : key is invalid');
+        }
+        if (empty($this->params['bucket_id'])) {
             throw new SDKException('param : bucket_id is invalid');
         }
     }
