@@ -24,7 +24,7 @@ class Signature
             if (!is_string($param) && !is_numeric($param)) {
                 throw new SDKException('param ' . $key . ' is invalid');
             }
-            if ($key != 'sign' && !empty($param)) {
+            if ($key != 'sign' && $param !== '') {
                 $string .= ($key . '=' . $param . '&');
             }
         }
