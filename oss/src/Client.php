@@ -44,6 +44,7 @@ use kuaikuaicloud\oss\Exception\SDKException;
  * @method Response GetObjectTagRequest($params)
  * @method Response PutObjectTagRequest($params)
  * @method Response DeleteObjectTagRequest($params)
+ * @method Response GetMonitorRequest($params)
  */
 class Client
 {
